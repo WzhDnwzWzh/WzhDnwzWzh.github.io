@@ -22,6 +22,7 @@
 </li>
 <li>算法基础<ul>
 <li>复杂度</li>
+<li>枚举</li>
 <li>模拟</li>
 <li>递归 &amp; 分治</li>
 <li>贪心</li>
@@ -36,6 +37,7 @@
 <li>排序相关 STL</li>
 </ul>
 </li>
+<li>前缀和 &amp; 差分</li>
 <li>二分</li>
 </ul>
 </li>
@@ -158,19 +160,6 @@
       </tags>
   </entry>
   <entry>
-    <title>梦开始的地方</title>
-    <url>/2021/08/24/%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/</url>
-    <content><![CDATA[<p>我在以前就有想过搭建一个自己的博客，知识可惜自己的文笔和能力，一直没有勇气写下第一笔。<br>就在这时落下第一笔的时候，我终于意识到我终于有一个真正属于自己的博客了。<br>总之，初中生活已经结束，望着新高中的生活。<br>在初中，由于学业原因，OI 学得不深不精，到了高中，一切成为变数。<br>梦，开始了。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>杂项</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>前缀和 &amp; 差分学习笔记</title>
     <url>/2021/08/24/%E5%89%8D%E7%BC%80%E5%92%8C-%E5%B7%AE%E5%88%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>前缀和为一种预处理，可理解为数列前 $n$ 项的和。可降低查询某些信息的所需时间。</p>
@@ -194,6 +183,19 @@
         <tag>学习笔记</tag>
         <tag>前缀和</tag>
         <tag>差分</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>梦开始的地方</title>
+    <url>/2021/08/24/%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/</url>
+    <content><![CDATA[<p>我在以前就有想过搭建一个自己的博客，知识可惜自己的文笔和能力，一直没有勇气写下第一笔。<br>就在这时落下第一笔的时候，我终于意识到我终于有一个真正属于自己的博客了。<br>总之，初中生活已经结束，望着新高中的生活。<br>在初中，由于学业原因，OI 学得不深不精，到了高中，一切成为变数。<br>梦，开始了。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>

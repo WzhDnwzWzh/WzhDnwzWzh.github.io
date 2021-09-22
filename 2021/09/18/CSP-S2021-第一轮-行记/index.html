@@ -20,26 +20,31 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","version":"8.7.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="WzhDnwzWzh&#39;s Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="WzhDnwzWzh&#39;s Blog">
-<meta property="og:url" content="http://example.com/categories/%E6%97%A5%E5%B8%B8/index.html">
+<meta name="description" content="总觉得应该写些什么…… Day 0今天周六，中午日常去机房，该复习的都复习过了，已经无心复习初赛，只是看了一下图论。 考场设在石室文庙，又勾起了中考考砸的不美好的回忆 QWQ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSP-S2021 第一轮 行记">
+<meta property="og:url" content="http://example.com/2021/09/18/CSP-S2021-%E7%AC%AC%E4%B8%80%E8%BD%AE-%E8%A1%8C%E8%AE%B0/index.html">
 <meta property="og:site_name" content="WzhDnwzWzh&#39;s Blog">
-<meta property="og:description" content="WzhDnwzWzh&#39;s Blog">
+<meta property="og:description" content="总觉得应该写些什么…… Day 0今天周六，中午日常去机房，该复习的都复习过了，已经无心复习初赛，只是看了一下图论。 考场设在石室文庙，又勾起了中考考砸的不美好的回忆 QWQ">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-09-18T05:38:17.000Z">
+<meta property="article:modified_time" content="2021-09-22T07:16:59.271Z">
 <meta property="article:author" content="WzhDnwzWzh">
-<meta property="article:tag" content="OI, WzhDnwzWzh, blog">
+<meta property="article:tag" content="日常">
+<meta property="article:tag" content="行记">
+<meta property="article:tag" content="CSP">
+<meta property="article:tag" content="2021">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/categories/%E6%97%A5%E5%B8%B8/">
+<link rel="canonical" href="http://example.com/2021/09/18/CSP-S2021-%E7%AC%AC%E4%B8%80%E8%BD%AE-%E8%A1%8C%E8%AE%B0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/日常/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2021/09/18/CSP-S2021-%E7%AC%AC%E4%B8%80%E8%BD%AE-%E8%A1%8C%E8%AE%B0/","path":"2021/09/18/CSP-S2021-第一轮-行记/","title":"CSP-S2021 第一轮 行记"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: 日常 | WzhDnwzWzh's Blog</title>
+<title>CSP-S2021 第一轮 行记 | WzhDnwzWzh's Blog</title>
   
 
 
@@ -133,7 +138,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -146,6 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-0"><span class="nav-number">1.</span> <span class="nav-text">Day 0</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-1"><span class="nav-number">2.</span> <span class="nav-text">Day 1</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -234,71 +240,131 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h2 class="collection-header">日常
-          <small>分类</small>
-        </h2>
-      </div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/18/CSP-S2021-%E7%AC%AC%E4%B8%80%E8%BD%AE-%E8%A1%8C%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="WzhDnwzWzh">
+      <meta itemprop="description" content="WzhDnwzWzh's Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WzhDnwzWzh's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          CSP-S2021 第一轮 行记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-09-18 13:38:17" itemprop="dateCreated datePublished" datetime="2021-09-18T13:38:17+08:00">2021-09-18</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-09-22 15:16:59" itemprop="dateModified" datetime="2021-09-22T15:16:59+08:00">2021-09-22</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%97%A5%E5%B8%B8/" itemprop="url" rel="index"><span itemprop="name">日常</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%97%A5%E5%B8%B8/%E8%A1%8C%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">行记</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>总觉得应该写些什么……</p>
+<h1 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h1><p>今天周六，中午日常去机房，该复习的都复习过了，已经无心复习初赛，只是看了一下图论。</p>
+<p>考场设在石室文庙，又勾起了中考考砸的不美好的回忆 QWQ</p>
+<span id="more"></span>
+
+<p>早上老师正常讲了一下课，中午竞赛来时强调了一些重要事项，下午又上了一些课。</p>
+<p>晚上回家已经很晚，最后上床前复习了一下图论和卡特兰数。</p>
+<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>上午进考场，准备考试（话说洛谷签到签出来大凶是什么意思喂？！）。</p>
+<p>考试开始快速浏览了一下卷子，12页（今年怎么还不用机读卡啊）。</p>
+<p>选择题？简单，30分钟写完。</p>
+<p>阅读程序第一个懒得看，直接手动模拟。</p>
+<p>？？？</p>
+<p>这怎么考了立体几何了啊喂？</p>
+<p>高一还没学啊！！！</p>
+<p>阅读程序第二题稍微看了一下，两种方法二分求连续子序列的最大和，还算简单。</p>
+<p>第三题？手算 base64，不想说了……</p>
+<p>最后看了一下填程序，第一题看了一下看得懂，但又不完全懂……</p>
+<p>第二题……</p>
+<p>什么是卡特兰树？什么是 RMQ 算法？LCA 忘了……</p>
+<p>算了算了直接蒙。</p>
+<p>最后做完卷子还有 15 分钟，这张卷子实在不想检查了。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-09-18T13:38:17+08:00"
-              content="2021-09-18">
-          09-18
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/09/18/CSP-S2021-%E7%AC%AC%E4%B8%80%E8%BD%AE-%E8%A1%8C%E8%AE%B0/" itemprop="url">
-            <span itemprop="name">CSP-S2021 第一轮 行记</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag"># 日常</a>
+              <a href="/tags/%E8%A1%8C%E8%AE%B0/" rel="tag"># 行记</a>
+              <a href="/tags/CSP/" rel="tag"># CSP</a>
+              <a href="/tags/2021/" rel="tag"># 2021</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/08/24/%E5%89%8D%E7%BC%80%E5%92%8C-%E5%B7%AE%E5%88%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="前缀和学习笔记">
+                  <i class="fa fa-chevron-left"></i> 前缀和学习笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-08-24T11:20:57+08:00"
-              content="2021-08-24">
-          08-24
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/08/24/%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/" itemprop="url">
-            <span itemprop="name">梦开始的地方</span>
-          </a>
-      </div>
 
-      
-    </header>
-  </article>
 
-    </div>
-  </div>
-  
-  
-  
 
+
+    <div class="comments gitalk-container"></div>
 </div>
   </main>
 
@@ -343,7 +409,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"WzhDnwzWzh","repo":"WzhDnwzWzh.github.io","client_id":"a50e9fd26d482f52b54e","client_secret":"a4f21ff9193f06317c9cec26cf30d9beb4f52c79","admin_user":"WzhDnwzWzh","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"b1c2873b799aab4f0b4b116f178b2570"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"WzhDnwzWzh","repo":"WzhDnwzWzh.github.io","client_id":"a50e9fd26d482f52b54e","client_secret":"a4f21ff9193f06317c9cec26cf30d9beb4f52c79","admin_user":"WzhDnwzWzh","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"12b07a59b9d6c963ba026283390a61ca"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 </body>
